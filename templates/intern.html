@@ -1,0 +1,27 @@
+<div class="employee-card">
+    <div class="card-header">
+        <div class="card-image">
+            <img src="{{ imageUrl }}" alt="Avatar">
+        </div>
+        <div class="card-title">
+            <div class="card-name">{{ name }}</div>
+            <div class="card-role">{{ role }}</div>
+        </div>
+    </div>
+    <div class="card-body">
+        <ul class="card-info">
+            <li class="card-info-item">
+                <div class="card-item-label">ID</div>
+                <div class="card-item">{{ id }}</div>
+            </li>
+            <li class="card-info-item">
+                <div class="card-item-label">EMAIL</div>
+                <div class="card-item"><a href="mailto:{{ email }}">{{ email }}</a></div>
+            </li>
+            <li class="card-info-item">
+                <div class="card-item-label">SCHOOL</div>
+                <div class="card-item">{{ school }}</div>
+            </li>
+        </ul>
+    </div>
+</div>
